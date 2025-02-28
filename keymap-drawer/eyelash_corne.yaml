@@ -1,10 +1,10 @@
 layers:
   QWERTY:
   - $$mdi:keyboard-esc$$
-  - Q
-  - W
-  - E
-  - R
+  - {t: Q, h: Sft+Q}
+  - {t: W, h: Sft+W}
+  - {t: E, h: Sft+E}
+  - {t: R, h: Sft+R}
   - T
   - $$mdi:arrow-up-bold$$
   - Y
@@ -14,9 +14,9 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', h: A}
-  - S
-  - D
+  - {t: A, h: Sft+A}
+  - {t: S, h: Sft+S}
+  - {t: D, h: Sft+D}
   - F
   - G
   - $$mdi:arrow-left-bold$$
