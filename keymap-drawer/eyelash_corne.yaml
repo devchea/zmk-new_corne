@@ -5,39 +5,39 @@ layers:
   - {t: W, h: Sft+W}
   - {t: E, h: Sft+E}
   - {t: R, h: Sft+R}
-  - T
+  - {t: T, h: Sft+T}
   - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: Y, h: Sft+Y}
+  - {t: U, h: Sft+U}
+  - {t: I, h: Sft+I}
+  - {t: O, h: Sft+O}
+  - {t: P, h: Sft+P}
+  - {t: '-', h: '-', s: _}
   - $$mdi:keyboard-tab$$
   - {t: A, h: Sft+A}
   - {t: S, h: Sft+S}
   - {t: D, h: Sft+D}
-  - F
-  - G
+  - {t: F, h: Sft+F}
+  - {t: G, h: Sft+G}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - H
-  - J
-  - K
-  - L
+  - {t: H, h: Sft+H}
+  - {t: J, h: Sft+J}
+  - {t: K, h: Sft+K}
+  - {t: L, h: Sft+L}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-command$$
-  - Z
-  - X
-  - C
-  - V
-  - B
+  - {t: Z, h: Sft+Z}
+  - {t: X, h: Sft+X}
+  - {t: C, h: Sft+C}
+  - {t: V, h: Sft+V}
+  - {t: B, h: Sft+B}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - N
-  - M
+  - {t: N, h: Sft+N}
+  - {t: M, h: Sft+M}
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
