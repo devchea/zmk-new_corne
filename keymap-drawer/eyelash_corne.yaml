@@ -12,7 +12,7 @@ layers:
   - {t: I, h: Sft+I}
   - {t: O, h: Sft+O}
   - {t: P, h: Sft+P}
-  - {t: '-', h: '-', s: _}
+  - {t: _, h: KP MINUS}
   - $$mdi:keyboard-tab$$
   - {t: A, h: Sft+A}
   - {t: S, h: Sft+S}
@@ -26,8 +26,8 @@ layers:
   - {t: J, h: Sft+J}
   - {t: K, h: Sft+K}
   - {t: L, h: Sft+L}
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: ;, h: ':', s: ':'}
+  - {t: '''', h: '"', s: '"'}
   - $$mdi:apple-keyboard-command$$
   - {t: Z, h: Sft+Z}
   - {t: X, h: Sft+X}
@@ -38,10 +38,10 @@ layers:
   - $$mdi:arrow-down-bold$$
   - {t: N, h: Sft+N}
   - {t: M, h: Sft+M}
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - {t: KP COMMA, h: <}
+  - {t: ., h: '>'}
+  - {t: KP SLASH, h: '?'}
+  - {t: KP EQUAL, h: KP PLUS}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - '2'
@@ -85,8 +85,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', h: '{', s: '{'}
+  - {t: '}', h: ']'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
