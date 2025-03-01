@@ -72,16 +72,16 @@
         Layer_0 {
             display-name = "QWERTY";
             bindings = <
-&kp ESCAPE        &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E       &mt LS(R) R    &mt LS(T) T                         &kp UP                &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I             &mt LS(O) O              &mt LS(P) P            &mt KP_MINUS UNDERSCORE
-&kp TAB           &mt LS(A) A  &mt LS(S) S  &mt LS(D) D       &mt LS(F) F    &mt LS(G) G               &kp LEFT  &kp ENTER  &kp RIGHT  &mt LS(H) H  &mt LS(J) J  &mt LS(K) K             &mt LS(L) L              &mt COLON SEMICOLON    &mt DOUBLE_QUOTES SINGLE_QUOTE
-&kp LEFT_COMMAND  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C       &mt LS(V) V    &mt LS(B) B  &kp SPACE              &kp DOWN              &mt LS(N) N  &mt LS(M) M  &mt LESS_THAN KP_COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION KP_SLASH  &mt KP_PLUS KP_EQUAL
-                                            &kp LEFT_CONTROL  &kp BACKSPACE  &mo 1                                                     &mo 2        &kp SPACE    &kp RALT
+&kp ESCAPE        &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R    &mt LS(T) T                         &kp UP                &mt LS(Y) Y   &mt LS(U) U  &mt LS(I) I             &mt LS(O) O              &mt LS(P) P            &mt KP_MINUS UNDERSCORE
+&kp TAB           &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F    &mt LS(G) G               &kp LEFT  &kp ENTER  &kp RIGHT  &mt LS(H) H   &mt LS(J) J  &mt LS(K) K             &mt LS(L) L              &mt COLON SEMICOLON    &mt DOUBLE_QUOTES SINGLE_QUOTE
+&kp LEFT_COMMAND  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V    &mt LS(B) B  &kp SPACE              &kp DOWN              &mt LS(N) N   &mt LS(M) M  &mt LESS_THAN KP_COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION KP_SLASH  &mt KP_PLUS KP_EQUAL
+                                            &mo 1        &kp BACKSPACE  &mo 1                                                     &kp KP_ENTER  &kp SPACE    &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        layer_2 {
+        numbers {
             bindings = <
 &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                    &trans          &kp CARET                    &kp AMPERSAND                  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
 &trans  &kp N1           &kp N2       &kp N3    &kp N4      &kp N5                 &trans  &trans  &trans  &kp N6                       &kp N7                         &kp N8        &kp N9                &kp N0                 &trans
