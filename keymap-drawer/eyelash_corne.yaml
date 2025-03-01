@@ -42,13 +42,13 @@ layers:
   - {t: ., h: '>'}
   - {t: KP SLASH, h: '?'}
   - {t: KP EQUAL, h: KP PLUS}
-  - numbers
+  - '1'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - numbers
+  - '1'
   - KP ENTER
   - $$mdi:keyboard-space$$
   - NUMBER
-  numbers:
+  '1':
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
