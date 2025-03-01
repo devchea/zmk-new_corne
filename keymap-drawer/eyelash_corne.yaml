@@ -42,13 +42,13 @@ layers:
   - {t: ., h: '>'}
   - {t: KP SLASH, h: '?'}
   - {t: KP EQUAL, h: KP PLUS}
-  - $$mdi:apple-keyboard-control$$
+  - numbers
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '2'
-  - NUMBER
+  - numbers
+  - KP ENTER
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-option$$
-  '2':
+  - NUMBER
+  numbers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -91,9 +91,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -143,9 +143,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: INS, type: held}
+  - INS
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   Fn:
   - '&studio_unlock'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
