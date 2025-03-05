@@ -72,7 +72,7 @@
             bindings = <
 &kp ESCAPE        &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R    &mt LS(T) T                               &kp UP                &mt LS(Y) Y   &mt LS(U) U  &mt LS(I) I             &mt LS(O) O              &mt LS(P) P            &mt KP_MINUS UNDERSCORE
 &kp TAB           &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F    &mt LS(G) G                     &kp LEFT  &kp ENTER  &kp RIGHT  &mt LS(H) H   &mt LS(J) J  &mt LS(K) K             &mt LS(L) L              &mt COLON SEMICOLON    &mt DOUBLE_QUOTES SINGLE_QUOTE
-&kp LEFT_COMMAND  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V    &mt LS(B) B       &kp K_MUTE              &kp DOWN              &mt LS(N) N   &mt LS(M) M  &mt LESS_THAN KP_COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION KP_SLASH  &mt KP_PLUS KP_EQUAL
+&kp LEFT_COMMAND  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V    &mt LS(B) B       &kp C_MUTE              &kp DOWN              &mt LS(N) N   &mt LS(M) M  &mt LESS_THAN KP_COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION KP_SLASH  &mt KP_PLUS KP_EQUAL
                                             &mo 1        &kp BACKSPACE  &kp LEFT_CONTROL                                                &kp KP_ENTER  &kp SPACE    &mo 2
             >;
 
@@ -91,10 +91,10 @@
         layer_2 {
             display-name = "NUMBER";
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &none                                          &mmv MOVE_UP                     &none            &none            &none            &none            &none     &none
-&bt BT_NXT      &kp LG(A)     &kp LG(S)     &none         &kp LG(F)  &none                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none            &none            &none            &none            &kp HOME  &kp PG_UP
-&bt BT_CLR_ALL  &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)  &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                                            &trans        &trans     &trans                                                                          &none            &none            &trans
+&none  &none      &kp LG(W)  &none      &none      &kp LG(LS(T))                                &mmv MOVE_UP                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none  &bt BT_CLR
+&none  &kp LG(A)  &kp LG(S)  &none      &kp LG(F)  &none                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none         &none         &none         &none  &none  &bt BT_NXT
+&none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &none          &kp C_MUTE                    &mmv MOVE_DOWN                   &none         &none         &none         &none  &none  &bt BT_CLR_ALL
+                             &trans     &trans     &trans                                                                        &none         &none         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
