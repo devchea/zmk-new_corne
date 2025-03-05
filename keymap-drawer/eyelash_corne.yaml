@@ -34,7 +34,7 @@ layers:
   - {t: C, h: Sft+C}
   - {t: V, h: Sft+V}
   - {t: B, h: Sft+B}
-  - $$mdi:keyboard-space$$
+  - MUTE
   - $$mdi:arrow-down-bold$$
   - {t: N, h: Sft+N}
   - {t: M, h: Sft+M}
