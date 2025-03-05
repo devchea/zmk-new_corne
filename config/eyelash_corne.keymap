@@ -92,7 +92,7 @@
             display-name = "NUMBER";
             bindings = <
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &none                                          &mmv MOVE_UP                     &none            &none            &none            &none            &none     &none
-&bt BT_NXT      &kp LG(A)     &kp LG(S)     &none         &none      &none                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none            &none            &none            &none            &kp HOME  &kp PG_UP
+&bt BT_NXT      &kp LG(A)     &kp LG(S)     &none         &kp LG(F)  &none                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none            &none            &none            &none            &kp HOME  &kp PG_UP
 &bt BT_CLR_ALL  &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)  &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
                                             &trans        &trans     &trans                                                                          &none            &none            &trans
             >;
