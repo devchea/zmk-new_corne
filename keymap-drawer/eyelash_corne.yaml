@@ -20,7 +20,7 @@ layers:
   - {t: F, h: Sft+F}
   - {t: G, h: Sft+G}
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:volume-off$$
   - $$mdi:arrow-right-bold$$
   - {t: H, h: Sft+H}
   - {t: J, h: Sft+J}
@@ -34,7 +34,7 @@ layers:
   - {t: C, h: Sft+C}
   - {t: V, h: Sft+V}
   - {t: B, h: Sft+B}
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - {t: N, h: Sft+N}
   - {t: M, h: Sft+M}
