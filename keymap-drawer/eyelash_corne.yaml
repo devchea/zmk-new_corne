@@ -38,7 +38,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - {t: N, h: Sft+N}
   - {t: M, h: Sft+M}
-  - {t: KP COMMA, h: <}
+  - {t: ',', h: <, s: <}
   - {t: ., h: '>'}
   - {t: KP SLASH, h: '?'}
   - {t: KP EQUAL, h: KP PLUS}
