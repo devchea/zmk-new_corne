@@ -31,14 +31,14 @@
         };
 
         as: auto_shift {
-             compatible = "zmk,behavior-hold-tap";
-             label = "AUTO_SHIFT";
-             #binding-cells = <2>;
-             tapping_term_ms = <135>;
-             quick_tap_ms = <0>;
-             flavor = "tap-preferred";
-             bindings = <&kp>, <&kp>;
-            };
+            compatible = "zmk,behavior-hold-tap";
+            label = "AUTO_SHIFT";
+            #binding-cells = <2>;
+            tapping_term_ms = <135>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
 
         Hold_tap: Hold_tap {
             compatible = "zmk,behavior-hold-tap";
@@ -81,7 +81,7 @@
             display-name = "QWERTY";
             bindings = <
 &kp ESCAPE        &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R    &mt LS(T) T                          &kp UP                 &mt LS(Y) Y   &mt LS(U) U  &mt LS(I) I          &mt LS(O) O              &mt LS(P) P            &mt KP_MINUS UNDERSCORE
-&mt LS(TAB) TAB   &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F    &mt LS(G) G                &kp LEFT  &kp C_MUTE  &kp RIGHT  &mt LS(H) H   &mt LS(J) J  &mt LS(K) K          &mt LS(L) L              &mt COLON SEMICOLON    &mt DOUBLE_QUOTES SINGLE_QUOTE
+&mt LS(TAB) TAB   &as LS(A) A  &as LS(S) S  &as LS(D) D  &as LS(F) F    &as LS(G) G                &kp LEFT  &kp C_MUTE  &kp RIGHT  &mt LS(H) H   &mt LS(J) J  &mt LS(K) K          &mt LS(L) L              &mt COLON SEMICOLON    &mt DOUBLE_QUOTES SINGLE_QUOTE
 &kp LEFT_COMMAND  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V    &mt LS(B) B       &none              &kp DOWN               &mt LS(N) N   &mt LS(M) M  &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION KP_SLASH  &mt KP_PLUS KP_EQUAL
                                             &mo 1        &kp BACKSPACE  &kp LEFT_CONTROL                                            &kp KP_ENTER  &kp SPACE    &mo 2
             >;
