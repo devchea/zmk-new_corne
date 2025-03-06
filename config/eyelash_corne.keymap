@@ -36,7 +36,7 @@
             bindings = <&kp>, <&none>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <450>;
             flavor = "tap-preferred";
         };
     };
@@ -71,7 +71,7 @@
             display-name = "QWERTY";
             bindings = <
 &kp ESCAPE        &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R    &mt LS(T) T                          &kp UP                 &mt LS(Y) Y   &mt LS(U) U  &mt LS(I) I          &mt LS(O) O              &mt LS(P) P            &mt KP_MINUS UNDERSCORE
-&kp TAB           &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F    &mt LS(G) G                &kp LEFT  &kp C_MUTE  &kp RIGHT  &mt LS(H) H   &mt LS(J) J  &mt LS(K) K          &mt LS(L) L              &mt COLON SEMICOLON    &mt DOUBLE_QUOTES SINGLE_QUOTE
+&mt LS(TAB) TAB   &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F    &mt LS(G) G                &kp LEFT  &kp C_MUTE  &kp RIGHT  &mt LS(H) H   &mt LS(J) J  &mt LS(K) K          &mt LS(L) L              &mt COLON SEMICOLON    &mt DOUBLE_QUOTES SINGLE_QUOTE
 &kp LEFT_COMMAND  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V    &mt LS(B) B       &none              &kp DOWN               &mt LS(N) N   &mt LS(M) M  &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION KP_SLASH  &mt KP_PLUS KP_EQUAL
                                             &mo 1        &kp BACKSPACE  &kp LEFT_CONTROL                                            &kp KP_ENTER  &kp SPACE    &mo 2
             >;
@@ -91,10 +91,10 @@
         layer_2 {
             display-name = "NUMBER";
             bindings = <
-&none  &none      &kp LG(W)  &none      &none      &kp LG(LS(T))                                &mmv MOVE_UP                     &none         &kp UP_ARROW   &none         &none          &none  &bt BT_CLR
-&none  &kp LG(A)  &kp LG(S)  &none      &kp LG(F)  &none                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT      &kp DOWN       &kp RIGHT     &none          &none  &bt BT_NXT
-&none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &none          &kp C_MUTE                    &mmv MOVE_DOWN                   &bt BT_SEL 0  &bt BT_DISC 0  &bt BT_SEL 1  &bt BT_DISC 1  &none  &bt BT_CLR_ALL
-                             &trans     &trans     &trans                                                                        &none         &none          &trans
+&none  &none      &kp LG(W)  &none      &none      &kp LG(LS(T))                                &mmv MOVE_UP                     &none         &none           &kp UP_ARROW    &none          &none  &bt BT_CLR
+&none  &kp LG(A)  &kp LG(S)  &none      &kp LG(F)  &none                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &none  &bt BT_NXT
+&none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &none          &kp C_MUTE                    &mmv MOVE_DOWN                   &bt BT_SEL 0  &bt BT_DISC 0   &bt BT_SEL 1    &bt BT_DISC 1  &none  &bt BT_CLR_ALL
+                             &trans     &trans     &trans                                                                        &none         &none           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
