@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
   - $$mdi:keyboard-esc$$
@@ -33,7 +34,7 @@ layers:
   - {t: X, h: Sft+X}
   - {t: C, h: Sft+C}
   - {t: V, h: Sft+V}
-  - {t: Sft+B, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: B, h: Sft+B}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - {t: N, h: Sft+N}
