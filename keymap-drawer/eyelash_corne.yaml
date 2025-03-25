@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  QWERTY:
+  Zero:
   - $$mdi:keyboard-esc$$
   - {t: Q, h: Sft+Q}
   - {t: W, h: Sft+W}
@@ -43,13 +43,13 @@ layers:
   - {t: ., h: '>'}
   - {t: KP SLASH, h: '?'}
   - {t: KP EQUAL, h: KP PLUS}
-  - '1'
+  - One
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
   - KP ENTER
   - $$mdi:keyboard-space$$
-  - NUMBER
-  '1':
+  - Two
+  One:
   - {t: '`', h: '~', s: '~'}
   - '!'
   - '@'
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  NUMBER:
+  Two:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+W
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
-  '3':
+  Three:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -198,4 +198,4 @@ layers:
   - {type: held}
 combos:
 - p: [42, 47]
-  k: '3'
+  k: Three
