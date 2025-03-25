@@ -59,7 +59,7 @@
         compatible = "zmk,combos";
 
         layer_combo {
-            bindings = <&mo 0>;
+            bindings = <&mo 3>;
             key-positions = <42 47>;
         };
     };
